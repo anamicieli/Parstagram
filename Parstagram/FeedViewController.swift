@@ -119,6 +119,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let user = post["author"] as! PFUser
             cell.usernameLabel.text = user.username
         
+            // this is a comment
             cell.captionLabel.text = post["caption"] as! String
         
          
