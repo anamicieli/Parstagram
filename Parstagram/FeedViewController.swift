@@ -120,6 +120,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.usernameLabel.text = user.username
         
             // this is a comment
+            
             cell.captionLabel.text = post["caption"] as! String
         
          
