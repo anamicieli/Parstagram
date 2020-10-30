@@ -12,13 +12,14 @@
 		8E1B41672541DEB800633BE6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B41662541DEB800633BE6 /* FeedViewController.swift */; };
 		8E1B416C2542129900633BE6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B416B2542129900633BE6 /* CameraViewController.swift */; };
 		8E1B417A25422AA100633BE6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B417925422AA100633BE6 /* PostCell.swift */; };
-		8E2AF5482541BFEE00252DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AF5472541BFEE00252DA7 /* AppDelegate.swift */; };
 		8E2AF54A2541BFEE00252DA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AF5492541BFEE00252DA7 /* SceneDelegate.swift */; };
 		8E2AF54F2541BFEE00252DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AF54D2541BFEE00252DA7 /* Main.storyboard */; };
 		8E2AF5512541BFEF00252DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AF5502541BFEF00252DA7 /* Assets.xcassets */; };
 		8E2AF5542541BFEF00252DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AF5522541BFEF00252DA7 /* LaunchScreen.storyboard */; };
 		8E2AF55F2541BFEF00252DA7 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AF55E2541BFEF00252DA7 /* ParstagramTests.swift */; };
 		8E2AF56A2541BFEF00252DA7 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2AF5692541BFEF00252DA7 /* ParstagramUITests.swift */; };
+		8EFFB88625476F26003BB926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB88525476F26003BB926 /* AppDelegate.swift */; };
+		8EFFB88B254781F8003BB926 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB88A254781F8003BB926 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		8E1B416B2542129900633BE6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8E1B417925422AA100633BE6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		8E2AF5442541BFEE00252DA7 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E2AF5472541BFEE00252DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E2AF5492541BFEE00252DA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E2AF54E2541BFEE00252DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E2AF5502541BFEF00252DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		8E2AF5652541BFEF00252DA7 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2AF5692541BFEF00252DA7 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		8E2AF56B2541BFEF00252DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFFB88525476F26003BB926 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/AppDelegate.swift"; sourceTree = "<group>"; };
+		8EFFB88A254781F8003BB926 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		C09B006EFEEDA76CC78BE875 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		DA55FF4F77F9D99080CFB170 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +114,7 @@
 		8E2AF5462541BFEE00252DA7 /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
-				8E2AF5472541BFEE00252DA7 /* AppDelegate.swift */,
+				8EFFB88525476F26003BB926 /* AppDelegate.swift */,
 				8E2AF5492541BFEE00252DA7 /* SceneDelegate.swift */,
 				8E2AF54D2541BFEE00252DA7 /* Main.storyboard */,
 				8E2AF5502541BFEF00252DA7 /* Assets.xcassets */,
@@ -122,6 +124,7 @@
 				8E1B41662541DEB800633BE6 /* FeedViewController.swift */,
 				8E1B416B2542129900633BE6 /* CameraViewController.swift */,
 				8E1B417925422AA100633BE6 /* PostCell.swift */,
+				8EFFB88A254781F8003BB926 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -335,12 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFB88625476F26003BB926 /* AppDelegate.swift in Sources */,
 				8E1B41622541DE8300633BE6 /* LoginViewController.swift in Sources */,
 				8E1B416C2542129900633BE6 /* CameraViewController.swift in Sources */,
-				8E2AF5482541BFEE00252DA7 /* AppDelegate.swift in Sources */,
 				8E1B41672541DEB800633BE6 /* FeedViewController.swift in Sources */,
 				8E2AF54A2541BFEE00252DA7 /* SceneDelegate.swift in Sources */,
 				8E1B417A25422AA100633BE6 /* PostCell.swift in Sources */,
+				8EFFB88B254781F8003BB926 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
